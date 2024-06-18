@@ -1,0 +1,522 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": [
+        "hey",
+        "hello",
+        "hi",
+        "hello there",
+        "good morning",
+        "good evening",
+        "moin",
+        "hey there",
+        "let's go",
+        "hey dude",
+        "goodmorning",
+        "goodevening",
+        "good afternoon"
+      ],
+      "responses": [
+        "Hey! How are you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cu",
+        "good by",
+        "cee you later",
+        "good night",
+        "bye",
+        "goodbye",
+        "have a nice day",
+        "see you around",
+        "bye bye",
+        "see you later"
+      ],
+      "responses": [
+        "Bye"
+      ]
+    },
+    {
+      "tag": "affirm",
+      "patterns": [
+        "yes",
+        "y",
+        "indeed",
+        "of course",
+        "that sounds good",
+        "correct"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "deny",
+      "patterns": [
+        "no",
+        "n",
+        "never",
+        "I don't think so",
+        "don't like that",
+        "no way",
+        "not really"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "mood_great",
+      "patterns": [
+        "perfect",
+        "great",
+        "amazing",
+        "feeling like a king",
+        "wonderful",
+        "I am feeling very good",
+        "I am great",
+        "I am amazing",
+        "I am going to save the world",
+        "super stoked",
+        "extremely good",
+        "so so perfect",
+        "so good",
+        "so perfect"
+      ],
+      "responses": [
+        "Great, carry on!"
+      ]
+    },
+    {
+      "tag": "mood_unhappy",
+      "patterns": [
+        "my day was horrible",
+        "I am sad",
+        "I don't feel very well",
+        "I am disappointed",
+        "super sad",
+        "I'm so sad",
+        "sad",
+        "very sad",
+        "unhappy",
+        "not good",
+        "not very good",
+        "extremly sad",
+        "so saad",
+        "so sad"
+      ],
+      "responses": [
+        "Here is something to cheer you up:",
+        "Did that help you?"
+      ],
+      "images": [
+        "https://i.imgur.com/nGF1K8f.jpg"
+      ]
+    },
+    {
+      "tag": "bot_challenge",
+      "patterns": [
+        "are you a bot?",
+        "are you a human?",
+        "am I talking to a bot?",
+        "am I talking to a human?"
+      ],
+      "responses": [
+        "I am a bot, powered by Rasa."
+      ]
+    },
+    {
+      "tag": "gcet",
+      "patterns": [
+        "Tell me about gcet?",
+        "give me information about gcet?",
+        "history of gcet?"
+      ],
+      "responses": [
+        "Geethanjali college of Engineering and Technology , Located at Cheeryal(vill),medchal(dist),Hyderabad"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are the college hours?",
+        "When does the college open?",
+        "What time does the college close?",
+        "Can you tell me the college timings?",
+        "What are the working hours of the college?",
+        "What are the opening and closing times of the college?",
+        "Is the college open on weekends?",
+        "What is the schedule of the college?",
+        "What are the college hours on weekdays?",
+        "When is the college closed?"
+      ],
+      "responses": [
+        "The college hours are from 9 AM to 3:40 PM, Monday to Friday."
+      ]
+    },
+    {
+      "tag": "IT_HOD",
+      "patterns": [
+        "Who is the HOD of IT?",
+        "Can you tell me the name of the IT HOD?",
+        "Who heads the IT department?",
+        "Who is the head of the IT department?",
+        "Who is in charge of the IT department?",
+        "Who is the IT HOD?",
+        "Who is the head of IT?",
+        "Who leads the IT department?",
+        "Who is the current HOD of IT?",
+        "Who manages the IT department?"
+      ],
+      "responses": [
+        "The HOD of IT at GCET is Dr. Sreelaxmi."
+      ]
+    },
+    {
+      "tag": "CSE_HOD",
+      "patterns": [
+        "Who is the HOD of CSE?",
+        "Can you tell me the name of the CSE HOD?",
+        "Who heads the CSE department?",
+        "Who is the head of the CSE department?",
+        "Who is in charge of the CSE department?",
+        "Who is the CSE HOD?",
+        "Who is the head of CSE?",
+        "Who leads the CSE department?",
+        "Who is the current HOD of CSE?",
+        "Who manages the CSE department?"
+      ],
+      "responses": [
+        "The HOD of CSE at GCET is Dr. Sreelaxmi."
+      ]
+    },
+    {
+      "tag": "number_college",
+      "patterns": [
+        "What is the contact number of the college?",
+        "How can I contact the college?",
+        "Can you provide the college phone number?",
+        "What is the college's phone number?",
+        "How do I reach the college by phone?",
+        "Can you give me the college contact details?",
+        "What is the official phone number of the college?",
+        "How can I call the college?",
+        "What number can I use to contact the college?",
+        "Can you share the college telephone number?"
+      ],
+      "responses": [
+        "The contact number for GCET is +0 98663 08271."
+      ]
+    },
+    {
+      "tag": "certification",
+      "patterns": [
+        "Does the college offer certifications?",
+        "What certifications are available?",
+        "Can I get certified in any courses?",
+        "Are there any certification programs?",
+        "What certification courses does the college provide?",
+        "Can I earn certificates at this college?",
+        "Do you offer any professional certifications?",
+        "What are the options for certification?",
+        "Are certification courses available here?",
+        "How can I get certified through the college?"
+      ],
+      "responses": [
+        "GCET offers certification programs in Data Science, Cybersecurity, AI,Python , Fullstack Development etc."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered by the college?",
+        "Can you list the courses available?",
+        "What programs are available at the college?",
+        "What majors can I choose from?",
+        "What academic programs are there?",
+        "Can you tell me about the courses you offer?",
+        "What subjects can I study here?",
+        "What degrees can I pursue at this college?",
+        "What fields of study are available?",
+        "Can you provide a list of the courses offered?"
+      ],
+      "responses": [
+        "GCET offers courses in Engineering, Science, and Management."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How can I apply for admission?",
+        "What is the admission process?",
+        "Can you explain the admission procedure?",
+        "How do I get admitted to the college?",
+        "What steps do I need to take for admission?",
+        "What is the process to apply for admission?",
+        "Can you guide me on the admission process?",
+        "How do I enroll in the college?",
+        "What is required for admission?",
+        "What are the criteria for admission?"
+      ],
+      "responses": [
+        "The admission process involves an entrance exam EMCET. You can apply online through the ts.epass website. And there is an a other option you can directly join through the management seat."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure?",
+        "How much is the tuition fee?",
+        "Can you tell me the fees for the courses?",
+        "What are the college fees?",
+        "How much does it cost to study here?",
+        "What is the breakdown of the fees?",
+        "Can you provide details about the fee structure?",
+        "What are the tuition and other fees?",
+        "What is the cost of attending the college?",
+        "Can you explain the fee structure?"
+      ],
+      "responses": [
+        "The fee structure for GCET varies by course. Please visit our official website for detailed information."
+      ],
+      "images": [
+        "https://collegedunia.com/college/13548-geethanjali-college-of-engineering-and-technology-gcet-keesara-hyderabad/courses-fees"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Does the college have hostels?",
+        "What are the hostel facilities?",
+        "Can you tell me about the hostel accommodations?",
+        "Are there hostel services available?",
+        "What are the hostel options for students?",
+        "Can you provide details about the hostels?",
+        "Are there dormitories for students?",
+        "What is the cost of the hostel?",
+        "How can I apply for a hostel room?",
+        "What are the hostel facilities like?"
+      ],
+      "responses": [
+        "Yes, GCET has separate hostels for boys and girls with all necessary amenities."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Does the college have a library?",
+        "What are the library hours?",
+        "Can I borrow books from the library?",
+        "What facilities does the library offer?",
+        "How can I access the library resources?",
+        "Is there a digital library available?",
+        "What are the rules for using the library?",
+        "How can I get a library membership?",
+        "What types of books are available in the library?",
+        "Can you tell me about the library services?"
+      ],
+      "responses": [
+        "GCET has a well-equipped library with a vast collection of books, journals, and digital resources."
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Is there a canteen in the college?",
+        "What food options are available at the canteen?",
+        "What are the canteen hours?",
+        "Can I get meals at the college canteen?",
+        "Does the canteen offer vegetarian food?",
+        "How is the food quality at the canteen?",
+        "Are there healthy food options in the canteen?",
+        "What are the prices like at the canteen?",
+        "Can I get snacks at the canteen?",
+        "Is the canteen open on weekends?"
+      ],
+      "responses": [
+        "Yes, the college has a canteen that offers a variety of food options at affordable prices."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What are the placement opportunities?",
+        "Does the college offer placement services?",
+        "Can you tell me about the placement process?",
+        "What companies visit for placements?",
+        "How successful are the college placements?",
+        "What is the average salary package offered?",
+        "What support does the college provide for placements?",
+        "Are there internship opportunities through the college?",
+        "What is the placement record of the college?",
+        "How can I prepare for placements?"
+      ],
+      "responses": [
+        "GCET has a dedicated placement cell that provides excellent placement opportunities with top companies."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "Are there any clubs in the college?",
+        "What student clubs are available?",
+        "Can I join any clubs?",
+        "What are the different clubs in the college?",
+        "Are there academic clubs?",
+        "Can you tell me about the extracurricular clubs?",
+        "How can I become a member of a club?",
+        "What activities do the clubs organize?",
+        "Are there any cultural clubs?",
+        "What are the benefits of joining a club?"
+      ],
+      "responses": [
+        "Yes, GCET has various clubs including cultural, technical, and sports clubs for students to join."
+      ]
+    },
+    {
+      "tag": "fests",
+      "patterns": [
+        "Does the college organize fests?",
+        "What are the annual fests at the college?",
+        "Can you tell me about the college fests?",
+        "What cultural events are organized?",
+        "Are there any technical fests?",
+        "What are the major fests at the college?",
+        "How can I participate in the fests?",
+        "What activities are there during the fests?",
+        "Are there any inter-college fests?",
+        "What are the highlights of the college fests?"
+      ],
+      "responses": [
+        "GCET organizes various cultural and technical fests annually, providing students with opportunities to showcase their talents."
+      ]
+    },
+    {
+      "tag": "transport_facilities",
+      "patterns": [
+        "What are the transport facilities?",
+        "Does the college provide transportation?",
+        "Can you tell me about the bus services?",
+        "How can I avail the transport services?",
+        "Are there college buses available?",
+        "What are the transport options for students?",
+        "Is there a transport fee?",
+        "What are the bus timings?",
+        "How do I register for the transport facility?",
+        "Are there transport services for all routes?"
+      ],
+      "responses": [
+        "GCET provides transport facilities with a fleet of buses covering various routes across the city."
+      ]
+    },
+    {
+      "tag": "student_burujula_naveen",
+      "patterns": [
+        "What is the CGPA of Burujula Naveen",
+        "How can I contact Burujula Naveen",
+        "Tell me about Burujula Naveen"
+      ],
+      "responses": [
+        "Name: Burujula Naveen\nID: 21R11A0506\nContact: +91 7671800324\nCGPA: 8.46\nEmail: 21r11a0506@gcet.edu.in"
+      ]
+    },
+    {
+      "tag": "student_p_reena",
+      "patterns": [
+        "What is the CGPA of P Reena",
+        "How can I contact P Reena",
+        "Tell me about P Reena"
+      ],
+      "responses": [
+        "Name: P Reena\nID: 21R11A0541\nContact: +91 6305124575\nCGPA: 7.5\nEmail: 21r11a0541@gcet.edu.in"
+      ]
+    },
+    {
+      "tag": "student_nithin_yadav",
+      "patterns": [
+        "What is the CGPA of Nithin Yadav",
+        "How can I contact Nithin Yadav",
+        "Tell me about Nithin Yadav"
+      ],
+      "responses": [
+        "Name: Nithin Yadav\nID: 21R11A0532\nContact: +91 9491460899\nCGPA: 7.2\nEmail: 21r11a0532@gcet.edu.in"
+      ]
+    },
+    {
+      "tag": "student_lasya",
+      "patterns": [
+        "What is the CGPA of Lasya",
+        "How can I contact Lasya",
+        "Tell me about Lasya"
+      ],
+      "responses": [
+        "Name: Lasya\nID: 21R11A0503\nContact: +91 9014755380\nCGPA: 8.3\nEmail: 21r11a0503@gcet.edu.in"
+      ]
+    },
+    {
+      "tag": "student_l_dhanya",
+      "patterns": [
+        "What is the CGPA of L Dhanya",
+        "How can I contact L Dhanya",
+        "Tell me about L Dhanya"
+      ],
+      "responses": [
+        "Name: L Dhanya\nID: 21R11A0527\nContact: +91 9390905132\nCGPA: 8.1\nEmail: 21r11a0527@gcet.edu.in"
+      ]
+    },
+    {
+      "tag": "professor_e_vijaya",
+      "patterns": [
+        "What does E Vijaya teach",
+        "How can I contact E Vijaya",
+        "Tell me about E Vijaya"
+      ],
+      "responses": [
+        "Name: E Vijaya\nID: P001\nContact: +1 234 567 8901\nTeaches: Data Structures, DBMS, Software Engineering\nPosition: Assistant Professor"
+      ]
+    },
+    {
+      "tag": "professor_pooja_prasad",
+      "patterns": [
+        "What does Pooja Prasad teach",
+        "How can I contact Pooja Prasad",
+        "Tell me about Pooja Prasad"
+      ],
+      "responses": [
+        "Name: Pooja Prasad\nID: P002\nContact: +1 234 567 8902\nTeaches: Computer Networks\nPosition: Assistant Professor"
+      ]
+    },
+    {
+      "tag": "professor_dr_swathi",
+      "patterns": [
+        "What does Dr. Swathi teach",
+        "How can I contact Dr. Swathi",
+        "Tell me about Dr. Swathi"
+      ],
+      "responses": [
+        "Name: Dr. Swathi\nID: P003\nContact: +1 234 567 8903\nTeaches: JAVA, Data structures\nPosition: Assistant Professor"
+      ]
+    },
+    {
+      "tag": "professor_raheera",
+      "patterns": [
+        "What does Raheera teach",
+        "How can I contact Raheera",
+        "Tell me about Raheera"
+      ],
+      "responses": [
+        "Name: Raheera\nID: P004\nContact: +1 234 567 8904\nTeaches: SML\nPosition: Associate Professor"
+      ]
+    },
+    {
+      "tag": "professor_dr_sudhakar",
+      "patterns": [
+        "What does Dr. Sudhakar teach",
+        "How can I contact Dr. Sudhakar",
+        "Tell me about Dr. Sudhakar"
+      ],
+      "responses": [
+        "Name: Dr. Sudhakar\nID: P005\nContact: +1 234 567 8905\nTeaches: Machine Learning\nPosition: Assistant Professor"
+      ]
+    }
+  ]
+}
