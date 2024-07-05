@@ -4,5 +4,6 @@ The College Enquiry Chatbot is an AI-driven web application designed to assist s
 
 Output:
 
+![Screenshot 2024-07-05 194247](https://github.com/NaveenBurujula/College-Enquiry-Chatbot/assets/168223373/653fbe81-fb11-4a17-953b-434979bf915b)
 
 
