@@ -7,3 +7,4 @@ Output:
 ![Screenshot 2024-07-05 194247](https://github.com/NaveenBurujula/College-Enquiry-Chatbot/assets/168223373/653fbe81-fb11-4a17-953b-434979bf915b)
 
 
+![Screenshot 2024-07-05 194301](https://github.com/NaveenBurujula/College-Enquiry-Chatbot/assets/168223373/dffb35ed-a2c1-44b4-aafc-2fa5b532e695)
